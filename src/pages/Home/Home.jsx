@@ -34,7 +34,7 @@ const Home = () => {
       <div className="form-gamer-name-container">
         <h2>Introduce los datos</h2>
         <form onSubmit={handleSubmit(submit)} className="form-wrpr">
-          <label htmlFor="gamername">Introduce tu nombre de jugador</label>
+          <label htmlFor="gamername" style={{fontSize: 'var(--mgc-font-size-base)', textAlign: 'center'}}>Introduce tu nombre de jugador</label>
           <input id="gamername" {...register("gamername", { required: "Campo requerido" })} className={`gamer-name-input ${themeContext}`} placeholder={errors.gamername && errors.gamername.message} style={errors.gamername && {borderBottom: "2px solid red"}}/>
           {console.log(errors)}    
           <button className={ themeContext }>Registrar nombre</button>

@@ -39,7 +39,8 @@
     width: 100%;
     border: none;
     background-color: antiquewhite;
-    padding: var(--mgc-padding-m);
+    padding: var(--mgc-padding-l);
+    font-size: var(--mgc-font-size-l);
 }
 
 /* Estilos para quitar el outline en el focus */
@@ -68,7 +69,8 @@ button {
     width: 100%;
     cursor: pointer;
     border: none;
-    padding: var(--mgc-padding-s);
+    padding: var(--mgc-padding-m);
+    font-size: var(--mgc-font-size-base);
 }
 
 button.light {    
