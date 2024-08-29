@@ -1,0 +1,9 @@
+.board {
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 90vw;
+    max-width: 500px;
+    aspect-ratio: 1 / 1; /* Mantiene la proporción cuadrada */
+    padding: 10px; 
+}
