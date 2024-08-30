@@ -7,6 +7,7 @@
     position: absolute;
     top: 0;
     right: 20px;    
+    transition: all 1s;
 }
 
 
@@ -23,6 +24,7 @@
 /* Estilos para smartphones pequeños */
 @media only screen and (max-width: 550px) {
     #theme-changer {
-        display: none;
+        top: -10dvh;
+        /* display: none; */
     }    
 }
